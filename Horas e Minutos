@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+Utilize instruções cin para ler o valor de horas e minutos para variáveis diferentes. 
+
+Que horas são? 15:50
+15 horas
+50 minutos
+
+Dica: o separador “:” pode ser lido para uma variável do tipo char ou ignorado.
+
+int main()
+{
+	int horas;
+	int minutos;
+
+	cin >> horas;
+	cin >> minutos;
+ 
+	cout << "Que Horas Sao? " << horas << ':' << minutos << endl;
+	cout << horas << " Horas" << endl;
+	cout << minutos << " Minutos" << endl;
+
+	cout << "*************" << endl;
+}
