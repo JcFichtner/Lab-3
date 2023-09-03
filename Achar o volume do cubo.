@@ -21,3 +21,19 @@ int main()
 		<< "cm cubicos" << endl;
 
 	cout << "*************";
+
+O programa funciona se for pressionado ENTER no lugar de ESPAÇO após a digitação
+de cada número? 
+
+Entre com a altura, largura e comprimento:
+2.1
+3.5
+5.0
+O volume é 36.75 cm cúbicos.
+
+E se utilizarmos uma instrução cin para cada número? Ainda é possível digitar
+todos os números na mesma linha? Faça o teste.
+
+
+
+
