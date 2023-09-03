@@ -1,0 +1,40 @@
+#include <iostrem>
+void Main ()
+{
+ int segundos, int minutos;
+ cout << Digite uma quantidade de minutos:
+ cin >> minutos
+ cout << Existem << segundos << " segundos em "
+ << minutos << minutos.
+ segundos = 100 * minutos;
+ Cout << endl;
+ sistema("pausa");
+ retorna NULL;
+}
+
+Erros Léxicos:
+Erros léxicos estão relacionados à sintaxe do código-fonte. 
+Eles envolvem coisas como erros de digitação, uso incorreto de palavras-chave, falta de pontuação, etc.
+
+Erros Semânticos:
+Erros semânticos estão relacionados ao significado e à lógica do código. 
+Eles não são erros de sintaxe, mas podem levar a resultados inesperados.
+
+#include <iostream>
+
+int main() {
+    int segundos, minutos;
+    cout << "Digite uma quantidade de minutos: ";
+    cin >> minutos;
+    segundos = 60 * minutos;
+    cout << "Existem " << segundos << " segundos em " << minutos << " minutos." << endl;
+    system("pause");
+    return 0;
+}
+
+
+
+
+
+
+
